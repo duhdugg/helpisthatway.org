@@ -1,0 +1,7 @@
+{
+  "name": "helpisthatway.org",
+  "private": true,
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
