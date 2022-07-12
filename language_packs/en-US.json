@@ -1,0 +1,36 @@
+{
+  "categoryNames": {
+    "domesticViolence": "Violence at Home",
+    "harmingOthers": "Harming Others",
+    "homeless": "Homeless",
+    "lgbtqiaPlus": "LGBTQIA+ Help",
+    "maritalAndFamily": "Marital & Family",
+    "mentalAbuse": "Mental Abuse",
+    "mentalHealth": "Mental Health",
+    "selfHarm": "Self Harm",
+    "sexualAbuse": "Sexual Abuse",
+    "substanceAbuse": "Substance Abuse"
+  },
+  "contribute": {
+    "header": "Help Us Help Others!",
+    "body": "helpisthatway.org is brought to you by a community of volunteers. Please visit our project on GitHub if you would like to contribute."
+  },
+  "sectionNames": {
+    "immediateHelp": "Immediate Help",
+    "importantHelp": "Important Help"
+  },
+  "domains": {
+    "psychologytoday.org/us/therapists": {
+      "name": "Psychology Today: Find a Therapist",
+      "description": "Psychology Today is the world’s largest mental health and behavioral science destination online. The \"Find a Therapist\" directory lists clinical professionals, psychiatrists, and treatment centers providing mental health services."
+    },
+    "suicidepreventionlifeline.org": {
+      "name": "National Suicide Prevention Lifeline",
+      "description": "The National Suicide Prevention Lifeline is a national network of local crisis centers that provides free and confidential emotional support to people in suicidal crisis or emotional distress 24 hours a day, 7 days a week in the United States."
+    },
+    "thetrevorproject.org": {
+      "name": "The Trevor Project",
+      "description": "The Trevor Project is the world’s largest suicide prevention and crisis intervention organization for LGBTQ (lesbian, gay, bisexual, transgender, queer, and questioning) young people."
+    }
+  }
+}
