@@ -1,7 +1,37 @@
 {
   "name": "helpisthatway.org",
   "private": true,
+  "dependencies": {
+    "next": "^12.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
-    "prettier": "^2.7.1"
+    "@types/node": "^18.0.3",
+    "@types/react": "^18.0.15",
+    "eslint": "8.19.0",
+    "eslint-config-next": "12.2.2",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "next/core-web-vitals",
+      "next",
+      "plugin:prettier/recommended"
+    ]
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "jsxSingleQuote": true
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export -o dist",
+    "deploy": "bash scripts/deploy.sh"
   }
 }
